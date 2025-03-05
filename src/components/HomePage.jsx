@@ -34,7 +34,7 @@ function HomePage() {
           </b>
         </Typography>
         <img 
-          src="/profile-picture.png" 
+          src={`${process.env.PUBLIC_URL}/profile-picture.png`}
           alt="Profile" 
           style={{ 
             width: '300px', 

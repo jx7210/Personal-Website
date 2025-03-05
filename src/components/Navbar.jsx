@@ -43,7 +43,7 @@ function Navbar() {
     >
       <div className="Navbar Title" style={{display:'flex'}}>
       <img 
-          src="/mac-memoji.png" 
+          src={`${process.env.PUBLIC_URL}/mac-memoji.png`}
           alt="Logo" 
           style={{ 
             width: '30px', 

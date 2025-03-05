@@ -28,7 +28,7 @@ function AboutPage() {
         </ul>
         </p>
       </div>
-      <img src='/about.png' alt="about"/>
+      <img src={`${process.env.PUBLIC_URL}/about.png`} alt="about"/>
     </div>
   );
 }
