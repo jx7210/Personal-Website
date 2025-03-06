@@ -47,7 +47,7 @@ function ContactPage() {
       required
       fullWidth
       multiline
-      rows={15}
+      rows={5}
       margin="dense"
       variant="outlined" 
       placeholder="Your Message"
